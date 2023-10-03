@@ -22,31 +22,45 @@ RENAME: This is used to rename an object existing in the database.
 ### 1) Create a table student with the following fieds rollno,name,age,address,phoneno.
 
 ### SQL QUERY: 
+```create table Studentsdetails(rollno numeric(12),name varchar(20),age numeric(2),address varchar(100),phoneno numeri
+c(10));
+```
+
 
 
 ### OUTPUT:
+![image](https://github.com/dhivyapriyar/F2_DBMS/assets/119477552/c7c7c71e-55b1-4254-9471-d89507186b92)
+
 
 ### 2) Change the above student table by adding another attribute department
 
 ### SQL QUERY: 
-
+```alter table Studentsdetails add dept char(20);
+```
 ### OUTPUT:
+![image](https://github.com/dhivyapriyar/F2_DBMS/assets/119477552/84795500-c4e2-4706-89a5-9f03584b7fcc)
 
 
 ### 3) Drop the student table
- 
+
+
 ### SQL QUERY: 
+ ``` drop table Studentsdetails;
+```
 
 
 ### OUTPUT:
 
-
+![image](https://github.com/dhivyapriyar/F2_DBMS/assets/119477552/02733fcf-c623-40cc-a071-1ea6f3b21cf4)
 ### 4) Delete the student table using truncate keyword
 
 ### SQL QUERY: 
 
-
+```
+truncate table Studentsdetails;
+```
 ### OUTPUT:
+![image](https://github.com/dhivyapriyar/F2_DBMS/assets/119477552/c8c73323-c9e7-4fc0-a5e1-031568819ec6)
 
 
 
@@ -54,5 +68,9 @@ RENAME: This is used to rename an object existing in the database.
 
 ### SQL QUERY: 
 
+```
+alter table Studentsdetails rename to my_student;
+```
 
 ### OUTPUT:
+![image](https://github.com/dhivyapriyar/F2_DBMS/assets/119477552/b2b459db-f955-4c18-a3f7-36c7bccf50eb)
