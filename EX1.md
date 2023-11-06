@@ -86,6 +86,8 @@ alter table Studentsdetails rename to my_student;
 
 ![Screenshot 2023-10-05 092651](https://github.com/dhivyapriyar/F2_DBMS/assets/119477552/597d87cb-1af4-4bf6-87fc-c7e3a9b4327b)
 
+
+
 ### RESULT:
 
 Thus the student database is created and DDL queries executed successfully.
